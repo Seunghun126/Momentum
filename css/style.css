@@ -1,0 +1,112 @@
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index:-1;
+    opacity:80%;
+}
+
+#clock {
+    font-size: 56px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#greeting {
+    font-size: 48px;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+#login-form {
+    grid-column: 1 / 2;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0;
+}
+
+#login-form input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+
+#login-form input[type="submit"] {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#quote {
+    grid-column: 1 / -1;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    max-width: 480px;
+    margin: auto;
+}
+
+#todo-form {
+    grid-column: 2 / 3;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#todo-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-list {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#todo-list li {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+#weather {
+    grid-column: 1 / 2;
+    margin-top: 30px;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
